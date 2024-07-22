@@ -3,7 +3,7 @@ def solution(operations):
 
     for i in range(len(operations)):
         if operations[i][0] == 'I':
-            answer.append(int(operations[i][2:]))  # 'I' 뒤의 숫자를 큐에 삽입
+            answer.append(int(operations[i][2:]))
         if operations[i][0] == 'D':
             if len(answer) == 0:
                 pass  # 큐가 비어 있으면 아무것도 하지 않음
