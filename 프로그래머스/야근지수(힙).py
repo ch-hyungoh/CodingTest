@@ -23,5 +23,3 @@ def solution(n, works):
         anwser += h[1] ** 2
 
     return anwser
-
-solution([4, 3, 3], 4)
