@@ -3,4 +3,4 @@ for tc in range(1, 1+int(input())):
 
     maxNum = N // 3 
 
-    print(maxNum)
+    print("#{} {}".format(tc, maxNum))

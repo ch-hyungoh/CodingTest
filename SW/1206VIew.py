@@ -9,4 +9,4 @@ for tc in range(1, 11):
             result += c - max(ff, f, n, nn)
 
 
-    print(result)
+    print("#{} {}".format(tc, result))
